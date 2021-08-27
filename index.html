@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="#">Ahmad<span>Tijani</span></a>
+        </div>
+        <div class="menu">
+          <li><a href="#home" class="menu-btn"></a>Home</li>
+          <li><a href="#about" class="menu-btn"></a>About</li>
+          <li><a href="#services" class="menu-btn"></a>Services</li>
+          <li><a href="#skills" class="menu-btn"></a>Skills</li>
+          <li><a href="#contact" class="menu-btn"></a>Contact</li>
+        </div>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!--HOME SECTION BEGINS-->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="home-content">
+          <div class="text-1">Hello👏, my name is</div>
+          <div class="text-2">AhmadTijani</div>
+          <div class="text-3">And I'm a <span class="typing"></span></div>
+          <a href="#"><strong>Hire me</strong></a>
+        </div>
+      </div>
+    </section>
+
+    <!--<p>
+      A prolific frontend developer with a demonstrated history of working in
+      the frontend Team. Skilled in solving task with HTML, CSS, JAVASCRIPT and
+      REACT. Capable of handling task and solving problems with accuracy
+    </p>-->
+
+    <!--ABOUT SECTION STARTS-->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+          <div class="column-left">
+            <img src="./images/abcdef.png" alt="My image" />
+          </div>
+          <div class="column-right">
+            <div class="text">
+              I'm AhmadTijani and I'm a <span class="typing-2"></span>
+            </div>
+            <p>
+              A prolific frontend developer with a demonstrated history of
+              working in the frontend Team. Skilled in solving task with HTML,
+              CSS, JAVASCRIPT and REACT. Capable of handling task and solving
+              problems with accuracy
+            </p>
+            <a href="https://bit.ly/3BfNZg6" download>Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SERVICES SECTION START-->
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="title">My services</h2>
+        <div class="services-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-paint-brush"></i>
+              <div class="text">Web Design</div>
+              <p>
+                I build website that attract clients and guide them to the main
+                services or product you offer. Let me turn your ideas into code.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-ad"></i>
+              <div class="text">Digital Marketing</div>
+              <p>
+                I assist to win prospective customers and provide social media
+                opportunities that may benefit your business. I develop and
+                integrate content marketing strategies
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-language"></i>
+              <div class="text">Translation</div>
+              <p>
+                I read and understand the original document, then translate it
+                while been sensitive to the culture of the original language and
+                the target language during the translation process.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SKILLS SECTION STARTS-->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="title">My Skills</h2>
+        <div class="skills-content">
+          <div class="column-left">
+            <div class="text">My creative skills & experiences</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, ea pariatur cum facere doloremque, perspiciatis
+              inventore magnam fuga similique sapiente voluptatibus mollitia
+              odio exercitationem laudantium repellat repudiandae! Et, impedit
+              excepturi<span id="dots">...</span
+              ><span id="more"
+                >erisque enim ligula venenatis dolor. Maecenas nisl est,
+                ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+                ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+                imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+                venenatis. Integer fringilla congue eros non fermentum. Sed
+                dapibus pulvinar nibh tempor porta.</span
+              >
+            </p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+          </div>
+
+          <!--Another html style-->
+          <div class="column-right">
+            <h2 class="title2">Professional Skills</h2>
+            <div class="box">
+              <h3>HTML</h3>
+              <div class="percentage">
+                <div style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="box">
+              <h3>CSS</h3>
+              <div class="percentage">
+                <div style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="box">
+              <h3>Javascript</h3>
+              <div class="percentage">
+                <div style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="box">
+              <h3>React</h3>
+              <div class="percentage">
+                <div style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="column-right">
+            <div class="bars">
+              <div class="info">
+                <span>HTML</span>
+                <span>90%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>CSS</span>
+                <span>70%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>JAVASCRIPT</span>
+                <span>80%</span>
+              </div>
+              <div class="line javascript"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>REACT</span>
+                <span>70%</span>
+              </div>
+              <div class="line react"></div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT SECTION STARTS-->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Let's hear from you</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae, repellat volupates,jjskjksjnxklnxjbkjxjxkxjjh
+              vmxk,porro.
+            </p>
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Ramoni Tijani Opeyemi</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-map-marker"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">Lagos, Nigeria</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">ahmadtijani84@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column right">
+            <div class="text">Message me</div>
+            <div class="media-icons">
+              <a
+                href="https://web.facebook.com/tijaniopeyemi.abdulrahman"
+                target="_blank"
+                rel="noonpener noreferrer"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://twitter.com/intent/follow?screen_name=_AhmadTijani"
+                target="_blank"
+                rel="noonpener noreferrer"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="https://instagram.com/i_am_ahmatijani"
+                target="_blank"
+                rel="noonpener noreferrer"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://mywa.link/oss6qt6j"
+                target="_blank"
+                rel="noonpener noreferrer"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+            <form action="#">
+              <div class="field">
+                <div class="field name">
+                  <input type="text" placeholder="Name" required />
+                </div>
+                <div class="field email">
+                  <input type="text" placeholder="Email" required />
+                </div>
+                <div class="field">
+                  <input type="text" placeholder="Subject" required />
+                </div>
+                <div class="field textarea">
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    placeholder="Describe project.."
+                    required
+                  ></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Send message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER SECTION STARTS-->
+    <footer>
+      <span
+        >Created By<a href="#">AhmadTijani</a>|
+        <span class="far fa-copyright"></span>2021 All rights reserved.</span
+      >
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
