@@ -37,15 +37,17 @@ html {
 }
 .navbar .menu li {
   list-style: none;
-  display: block;
   color: #fff;
   display: inline-block;
+  transition: color 0.3 ease;
+}
+.navbar .menu li a {
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
-  transition: color 0.3 ease;
 }
-.navbar .menu li:hover {
+.navbar .menu a:hover {
   color: yellow;
   cursor: pointer;
 }
@@ -187,10 +189,10 @@ section {
   width: 45%;
 }
 .about .about-content .column-left img {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 50%;
 }
 .about .about-content .column-right {
   width: 55%;
@@ -610,6 +612,9 @@ section {
   border-radius: 7px;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+.contact .right form .button a {
+  color: gold;
 }
 .contact .right form .button button:hover {
   color: gold;

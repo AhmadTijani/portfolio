@@ -11,6 +11,7 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+    
 
     //SLIDE-UP SCRIPT
     $(`.scroll-up-btn`).click(function(){
@@ -23,6 +24,7 @@ $(document).ready(function(){
         $(`.menu-btn i`).toggleClass("active");
     });
 });
+
 
     //TYPING ANIMATION SCRIPT
     var typed = new Typed(".typing", {
@@ -38,6 +40,8 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     })
+   
+        
 
 function myFunction() {
     var dots = document.getElementById("dots");
@@ -53,4 +57,5 @@ function myFunction() {
       btnText.innerHTML = "Read less";
       moreText.style.display = "inline";
     }
-  }
+}
+

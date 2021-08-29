@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
+    <title>Ramoni Tijani Opeyemi: Front End Developer</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/favicon-32x32.png" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -28,13 +29,20 @@
         <div class="logo">
           <a href="#">Ahmad<span>Tijani</span></a>
         </div>
-        <div class="menu">
-          <li><a href="#home" class="menu-btn"></a>Home</li>
-          <li><a href="#about" class="menu-btn"></a>About</li>
-          <li><a href="#services" class="menu-btn"></a>Services</li>
-          <li><a href="#skills" class="menu-btn"></a>Skills</li>
-          <li><a href="#contact" class="menu-btn"></a>Contact</li>
-        </div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!--<div class="menu">
+          <li><a class="active"href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>-->
         <div class="menu-btn">
           <i class="fas fa-bars"></i>
         </div>
@@ -48,7 +56,8 @@
           <div class="text-1">Hello👏, my name is</div>
           <div class="text-2">AhmadTijani</div>
           <div class="text-3">And I'm a <span class="typing"></span></div>
-          <a href="#"><strong>Hire me</strong></a>
+          <a href="mailto:ahmadtijani84@gmail.com">Hire me</a>
+          <!--<a href="#" class="btn__hire__me" onclick="sliderNav(4)">Hire Me</a>-->
         </div>
       </div>
     </section>
@@ -134,19 +143,20 @@
           <div class="column-left">
             <div class="text">My creative skills & experiences</div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto, ea pariatur cum facere doloremque, perspiciatis
-              inventore magnam fuga similique sapiente voluptatibus mollitia
-              odio exercitationem laudantium repellat repudiandae! Et, impedit
-              excepturi<span id="dots">...</span
-              ><span id="more"
-                >erisque enim ligula venenatis dolor. Maecenas nisl est,
-                ultrices nec congue eget, auctor vitae massa. Fusce luctus
-                vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
-                ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
-                imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
-                venenatis. Integer fringilla congue eros non fermentum. Sed
-                dapibus pulvinar nibh tempor porta.</span
+              AhmadTijani is a Front-end developer who loves to solve problems
+              and handle tasks with perfection. He is genius who speaks more
+              than two international languages, this has helped him to be a team
+              player over the years. He had worked with different standard
+              organisation and left those organisation with an undisputable
+              recommendations<span id="dots">...</span
+              ><span id="more">
+                He is fluent with HTML which is the key structural component of
+                any website, CSS a simple mechanism for adding style to an html
+                document and Javascript which is a common programming language
+                that add interactivity to a website. He is also vast with using
+                framework such as React and Bootsraps as well as using version
+                control system such as Git Bash which has helped me to track and
+                contol changes.</span
               >
             </p>
             <button onclick="myFunction()" id="myBtn">Read more</button>
@@ -223,9 +233,10 @@
           <div class="column left">
             <div class="text">Let's hear from you</div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, repellat volupates,jjskjksjnxklnxjbkjxjxkxjjh
-              vmxk,porro.
+              You dream it, I build it. <br />
+              I can wow you with my hands-on experience in Javascript, React,
+              and version control. Hire me and let me exonerate you from the
+              burden of turning those ideas into code.
             </p>
             <div class="icons">
               <div class="row">
@@ -306,7 +317,9 @@
                   ></textarea>
                 </div>
                 <div class="button">
-                  <button type="submit">Send message</button>
+                  <button type="submit">
+                    <a href="mailto:ahmadtijani84@gmail.com">Send message</a>
+                  </button>
                 </div>
               </div>
             </form>
