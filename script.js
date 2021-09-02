@@ -23,6 +23,12 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $(`.menu-btn i`).toggleClass("active");
     });
+
+   
+    // close hamburger menu after click navbar
+    $('.navbar .menu').on("click", function(){
+        $('.menu-btn i').click();
+    });
 });
 
 
